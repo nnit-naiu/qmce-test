@@ -13,7 +13,7 @@ return [
     // 用户名
     'username' => 'root',
     // 密码
-    'password' => 'Aa123456',
+    'password' => 'U652r#MH$kg>yJ]bIe_)OG7V',
     // 端口
     'hostport' => '3306',
     // 数据库编码默认采用utf8

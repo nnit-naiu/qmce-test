@@ -1,2 +1,2 @@
 *.log
-/data/config/*
+data/config/database.php
