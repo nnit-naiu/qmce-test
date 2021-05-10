@@ -85,7 +85,8 @@ function mce_unescape($str)
   return join("", $ar);
 }
 
-function mce_cookie($key, $val = false, $expire = 60 * 60 * 24 * 30)
+//$expire = 60 * 60 * 24 * 30
+function mce_cookie($key, $val = false, $expire = 2592000)
 {
   if($val) {
     cookie($key, cmf_str_encode($val), $expire);

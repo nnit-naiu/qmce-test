@@ -36,8 +36,7 @@ class BaseController extends QyoauthController
      * ******
      * ******
      */
-
-    $role = 'mr';
+    $role = 'DBM';
     return $role;
   }
   

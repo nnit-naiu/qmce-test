@@ -13,11 +13,13 @@ class QyoauthController extends HomeBaseController
   {
     parent::initialize();
     $initial = mce_cookie('mce_initial');
+//    $initial = mce_cookie('mce_initial','1',0);
     if($initial) {
       $this->_initial = $initial;
     } else {
       // 通过企业号接口 获取initial
-      $initial = 'NGZ';
+//      $initial = 'NGZ';
+      $initial = 'KEWG';
       mce_cookie('mce_initial', $initial);
       $this->_initial = $initial;
       // 使用WeCall域名进行跳转认证

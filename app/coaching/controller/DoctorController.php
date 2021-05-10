@@ -5,7 +5,7 @@ namespace app\coaching\controller;
 use app\coaching\controller\BaseController;
 
 // 医生详情页，各角色共用，根据角色区分编辑权限
-class DoctorController extends BaseController
+class IndexController extends BaseController
 {
   
   protected function initialize()
